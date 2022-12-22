@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/visk-app/static/css/main.9929e91a.css",
+    "main.js": "/visk-app/static/js/main.e43d2eb4.js",
+    "index.html": "/visk-app/index.html",
+    "main.9929e91a.css.map": "/visk-app/static/css/main.9929e91a.css.map",
+    "main.e43d2eb4.js.map": "/visk-app/static/js/main.e43d2eb4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9929e91a.css",
+    "static/js/main.e43d2eb4.js"
+  ]
+}
