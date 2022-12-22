@@ -1,0 +1,28 @@
+.contacts-list {
+  background-color: rgb(235, 236, 236);
+  width: 100%;
+
+  &_table {
+    width: 100%;
+  }
+  
+  &_titles {
+    background-color: white;
+  }
+  
+  &_body:nth-child(odd) {
+    background-color: #fff;
+  }
+}
+
+tr {
+ height: 30px;
+}
+
+tr:nth-child(even){
+  background-color: #f2f2f2;
+
+  &:hover {
+    background-color: #ddd;
+  }
+}

@@ -1,0 +1,23 @@
+.header {
+  height: 40px;
+  background-color: rgb(29, 29, 29);
+  color: white;
+  position: sticky;
+
+  display: flex;
+  align-items: center;
+
+  &_title {
+    margin-left: 20px;
+  }
+  
+  &_link {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+  
+    :hover {
+      color: gray;
+    }
+  }
+}

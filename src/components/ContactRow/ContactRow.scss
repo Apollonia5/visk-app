@@ -1,0 +1,52 @@
+.contact-row_button {
+  width: auto;
+
+  margin: 0;
+  padding: 5px;
+
+  border: 0;
+  background: transparent;
+  outline: 0;
+  color: inherit;
+
+  font-family: inherit;
+  font: inherit;
+  cursor: pointer;
+
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+
+  &::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+
+  transition: box-shadow 0.3s ease;
+  border: 1px solid grey;
+  border-radius: 8px;
+  color: white;
+}
+
+.delete-button {
+  background-color: rgb(255, 77, 77);
+
+  &:hover {
+    background-color: rgb(189, 33, 33);
+  }
+}
+
+.edit-button {
+  background-color: rgb(55, 165, 55);
+
+  &:hover {
+    background-color: rgb(26, 100, 26);
+  }
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+td {
+  text-align: center;
+}
